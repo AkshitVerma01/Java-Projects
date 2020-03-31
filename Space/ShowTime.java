@@ -107,7 +107,7 @@ public class ShowTime {
 		System.out.println(" ");
 
 		// Print out the list for the calculated ratios
-		System.out.println("The ratios for distance vs population for each planet and route are: " + ratio[0] + ", "
+		System.out.println("The ratios for distance vs population for planet and route are: " + ratio[0] + ", "
 				+ ratio[1] + ", " + ratio[2] + ", " + ratio[3]);
 
 		Arrays.sort(ratio);
@@ -123,7 +123,6 @@ public class ShowTime {
 			for (int j = 0; j < ratio.length; j++) {
 
 				float temp = (tempRoutes.distance / populations[i]);
-				System.out.println(planets[i + 1].population);
 
 				if (temp == ratio[j]) {
 					tempRoute[count] = routes[i];
