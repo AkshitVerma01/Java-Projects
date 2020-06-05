@@ -25,7 +25,6 @@ public class ThingsThatKill {
 		// Value of variables is set from passed parameters
 		// At an instant
 		pID = ID;
-		sID = sID;
 	}
 
 	/**

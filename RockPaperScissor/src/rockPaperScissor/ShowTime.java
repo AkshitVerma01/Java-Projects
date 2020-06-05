@@ -1,6 +1,5 @@
 package rockPaperScissor;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class ShowTime {
@@ -72,6 +71,7 @@ public class ShowTime {
 		Scanner hope = new Scanner(System.in);
 		System.out.println("\nChoose what you want to play this round: r-Rock, p-Paper, s-Scissors");
 		String input = hope.nextLine();
+		hope.close();
 
 		if (input.contains("r") || input.contains("s") || input.contains("p")) {
 			while (input.contains("r") || input.contains("s") || input.contains("p")) {
