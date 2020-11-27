@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.app.Testing" time="0.017" tests="39" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\akshi\Desktop\Repos\Java-Things\MatrixInstancesObjects\my-app\target\test-classes;C:\Users\akshi\Desktop\Repos\Java-Things\MatrixInstancesObjects\my-app\target\classes;C:\Users\akshi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\akshi\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\akshi\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\akshi\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.6.10-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\akshi\AppData\Local\Temp\surefire10229951785732236747\surefirebooter1216014142333567616.jar C:\Users\akshi\AppData\Local\Temp\surefire10229951785732236747 2020-11-27T01-50-09_730-jvmRun1 surefire2514165338084516864tmp surefire_011997995901775751167tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\akshi\Desktop\Repos\Java-Things\MatrixInstancesObjects\my-app\target\test-classes;C:\Users\akshi\Desktop\Repos\Java-Things\MatrixInstancesObjects\my-app\target\classes;C:\Users\akshi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.2\junit-jupiter-api-5.4.2.jar;C:\Users\akshi\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\akshi\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\akshi\.m2\repository\org\junit\platform\junit-platform-commons\1.4.2\junit-platform-commons-1.4.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\akshi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.6.10-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\akshi\Desktop\Repos\Java-Things\MatrixInstancesObjects\my-app"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\akshi\AppData\Local\Temp\surefire10229951785732236747\surefirebooter1216014142333567616.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.6+10"/>
+    <property name="user.name" value="akshi"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="localRepository" value="C:\Users\akshi\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\akshi\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.6"/>
+    <property name="user.dir" value="C:\Users\akshi\Desktop\Repos\Java-Things\MatrixInstancesObjects\my-app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.6.10-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\AdoptOpenJDK\jdk-11.0.6.10-hotspot\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\MATLAB\R2018a\runtime\win64;C:\Program Files\MATLAB\R2018a\bin;D:\Shadow Pass\Matlab\Install Folder\runtime\win64;D:\Shadow Pass\Matlab\Install Folder\bin;C:\Program Files\Calibre2\;c:\altera\90sp1\quartus\bin;C:\Program Files\Git\cmd;C:\Program Files\AdoptOpenJDK\jdk-11.0.6.10-hotspot\bin;C:\Users\akshi\Desktop\ALL .EXE&apos;S FROM EXTERNALS\Maven\apache-maven-3.6.3\bin;C:\Users\akshi\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\akshi\AppData\Local\Programs\Python\Python38-32\;C:\Users\akshi\AppData\Local\Microsoft\WindowsApps;C:\Users\akshi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Users\akshi\AppData\Local\GitHubDesktop\bin;C:\Modeltech_pe_edu_10.4a\win32pe_edu;."/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.6+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="com.mycompany.app.Testing.testGetElementValid1" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testUpperConstructor2Valid" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testUpperConstructor1Invalid" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testUpperSetElementValid1" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testSetElementInvalid" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testConstructor1Valid" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testUpperEffSolveValid2" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testUpperEffSolveValid1" classname="com.mycompany.app.Testing" time="0.002"/>
+  <testcase name="com.mycompany.app.Testing.testSubMatrixInvalid" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testConstructor1Valid2" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testUpperConstructor2Invalid" classname="com.mycompany.app.Testing" time="0.002"/>
+  <testcase name="com.mycompany.app.Testing.testUpperGetElementValid" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testUpperGetElementInvalid" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testGetElementValid" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testGetElementInvalid" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testSetElementValid" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testIsUpperTrFalseNotSquare" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testUpperConstructor1Valid" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testUpperGetElementValid1" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testUpperSetElementValid" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testUpperSetElementInvalid" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testUpperEffSolveInvalid1" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testUpperEffSolveInvalid2" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testConstructor1Invalid2" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testConstructor1Invalid1" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testUpperDet1" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testAddToInvalid" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testCopy1" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testSubMatrixValid" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testUpperGetDim" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testUpperDet" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testCopy" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testSumValid" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testIsUpperTrTrue" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testIsUpperTrFalse" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testSumInvalid" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testAddToValid" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testSumValid1" classname="com.mycompany.app.Testing" time="0"/>
+  <testcase name="com.mycompany.app.Testing.testConstructor2" classname="com.mycompany.app.Testing" time="0"/>
+</testsuite>
