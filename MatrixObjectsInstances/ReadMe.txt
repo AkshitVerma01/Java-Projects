@@ -51,4 +51,4 @@ How to do testing
         import static org.junit.jupiter.api.Assertions.*;
     4. Add your testing methods once again following the naming scheme of adding "Test" at the end or beginning of the method name
     5. Add an @Test right before the method so it knows its a test method.
-    6. In terminal, type mvn clean test to run the test
+    6. At the bottom of your projects, click maven and right click on your maven project and press test and look at terminal for results.
