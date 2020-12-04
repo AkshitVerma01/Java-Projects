@@ -13,7 +13,6 @@ public class matrixTest {
 		String expected = "0 0 0 \n" + "0 0 0 \n" + "0 0 0 \n";
 		// test constructor1; invalid inputs
 		Matrix a = new Matrix(invalid_row1, invalid_col1);
-
 		assertEquals(expected, a.toString());
 	}
 
