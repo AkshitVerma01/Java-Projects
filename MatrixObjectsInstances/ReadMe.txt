@@ -6,8 +6,9 @@ A) How to create a maven project
     4. GroupID = com.companyname.projectname, ArtifactID = projectname, press enter for version, 
         enter package name, press y for confirm
     5. Open the folder from file -> open folder
-    6. Create a tasks.json file
-    7. Add a compile element to the file
+    6. Add folder to workspace. File -> Add folder to workspace
+    7. Create a tasks.json file
+    8. Add a compile element to the file
         {
         "label": "compile",
         "type": "shell",
