@@ -4,7 +4,7 @@ A) How to create a maven project
     2. Ctl + shit + p to open pallete
     3. Maven create project and select maven-archetype-quickstart
     4. GroupID = com.companyname.projectname, ArtifactID = projectname, press enter for version, 
-        enter package name, press y for confirm
+        enter for package name (A lot more hassle adding a name), press y for confirm
     5. Open the folder from file -> open folder
     6. Add folder to workspace. File -> Add folder to workspace
     7. Create a tasks.json file
