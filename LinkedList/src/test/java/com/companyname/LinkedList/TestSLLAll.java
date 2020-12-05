@@ -2,7 +2,6 @@ package com.companyname.LinkedList;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-
 public class TestSLLAll {
 
 	// Only one way to test
@@ -84,7 +83,6 @@ public class TestSLLAll {
 
 	}
 
-	// There's only two options for this
 	@Test
 	public void testIsInTrue() {
 
@@ -107,6 +105,20 @@ public class TestSLLAll {
 
 		int notin = 0; // test isIn
 		boolean expected = false;
+
+		assertEquals(expected, listObj2.isIn(notin));
+
+	}
+
+	// Edge test
+	@Test
+	public void testIsInEnd() {
+
+		int[] arr = { 1, 2, 3, 7, 8 }; // this list
+		SLLSet listObj2 = new SLLSet(arr);
+
+		int notin = 8; // test isIn
+		boolean expected = true;
 
 		assertEquals(expected, listObj2.isIn(notin));
 
@@ -173,6 +185,24 @@ public class TestSLLAll {
 		int addfirst = 0; // test add
 
 		String expectedObj2 = "0, 1, 2, 3, 7, 8";
+		int expectedObj2Size = 6;
+
+		listObj2.add(addfirst);
+		assertEquals(expectedObj2Size, listObj2.getSize());
+		assertEquals(expectedObj2, listObj2.toString());
+
+	}
+
+	// Negative number test
+	@Test
+	public void testAdd5() {
+
+		int[] arr = { 1, 2, 3, 7, 8 }; // this list
+		SLLSet listObj2 = new SLLSet(arr);
+
+		int addfirst = -1; // test add
+
+		String expectedObj2 = "-1, 1, 2, 3, 7, 8";
 		int expectedObj2Size = 6;
 
 		listObj2.add(addfirst);
@@ -262,6 +292,7 @@ public class TestSLLAll {
 
 	}
 
+	//Middle remove
 	@Test
 	public void testRemove5() {
 
