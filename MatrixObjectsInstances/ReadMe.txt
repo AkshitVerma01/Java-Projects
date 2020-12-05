@@ -49,6 +49,6 @@ How to do testing
     3. Add a package declaration if necessary and these imports if working with assertions and jupiter junit
         import org.junit.jupiter.api.Test;
         import static org.junit.jupiter.api.Assertions.*;
-    4. Add your testing methods once again following the naming scheme of adding "Test" at the end or beginning of the method name
+    4. Add your testing methods once again following the naming scheme of adding "Test" at the end or beginning of the method name.
     5. Add an @Test right before the method so it knows its a test method.
     6. At the bottom of your projects, click maven and right click on your maven project and press test and look at terminal for results.
