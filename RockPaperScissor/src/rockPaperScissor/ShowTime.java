@@ -28,7 +28,7 @@ public class ShowTime {
 	int lastWin = -1;
 	int resultIs = -1;
 
-	// Division of two ints returns a double, therefore this is double
+	// Division of two ints returns a double, therefore assign double type
 	private double wins;
 	private double lose;
 	private double draw;
